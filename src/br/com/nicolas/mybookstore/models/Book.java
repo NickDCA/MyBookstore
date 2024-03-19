@@ -52,4 +52,20 @@ public class Book {
                 + publicationYear + ", subject=" + subject + ", availableQuantity=" + availableQuantity + "]";
     }
 
+    public String userInfo() {
+        return "[" + title + ", available quantitiy: " + availableQuantity + "]";
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public int getAvailableQuantity() {
+        return availableQuantity;
+    }
+
 }
